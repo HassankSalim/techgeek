@@ -1,0 +1,91 @@
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="row tile" style="width:96%;height:150px;font-size:40px;padding-left:100px;padding-top:50px;">
+                            <div class="">
+                                <span id="min">15</span>:<span id="sec">00</span>
+                            </div>
+                            </div>
+                            <div class="row" style="margin-top:70px;width:96%;">
+                                <div class="tile">
+                                    <div class="listview narrow" id="leader" tabindex="5000" style="overflow: hidden; outline: none;">
+                                        <div class="media p-1-5" style="background-color: rgba(0,0,0,0.3);">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 1 : Are you a Geek ?</a>
+                                            </div>
+                                        </div>
+                                        <div class="media p-1-5">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 2 : Bitten by the Android Bug</a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="media p-1-5">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 3 : Because FOSS is the way to go</a>
+                                            </div>
+                                        </div>
+                                        <div class="media p-1-5">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 4 : Thinking Apple</a>
+                                            </div>
+                                        </div>
+                                        <div class="media p-1-5">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 5 : Tech in Movies </a>
+                                            </div>
+                                        </div>
+                                        <div class="media p-1-5">
+                                            <div class="media-body">
+                                                <a class="t-overflow anc" style="font-size:15px;cursor:default;margin:5px 0px;">Day 6 : One Night Stand</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-md-6">
+                            <div id="quest" style="width: 100%;margin-top:70px;background-color: rgba(0,0,0,0.5);;height: 400.5px;box-shadow: rgb(35, 173, 255) 0px 0px 6px;overflow: hidden;outline: none;" tabindex="5000">
+                                <div id="contents" style="margin:10%;">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                        <div class="col-md-3">
+                            <div class="lboard" style="margin-left:20px;width:90%;">
+                                <div class="tile">
+                                    <h2 class="tile-title" style="font-size:17px;text-align:center;">Leaderboard</h2>
+                                    <div class="listview narrow scrol" id="leadergeek">
+
+                                        
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+	<script>
+            	$("#leadergeek").niceScroll({styler:"fb",cursorcolor:"#0000"});
+       	 </script>
+	<script>
+	$(document).ready(function(){
+        radioload();
+        
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+        $("#leadergeek").niceScroll();
+    });
+    
+  </script>
+  <script src="/static/techgeek/js/techgeek.js">
+  </script>
